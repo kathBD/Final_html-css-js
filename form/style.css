@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+body {
+    height: 100%;
+    font-family: 'Roboto Flex', sans-serif;
+    background-image: url(./sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #fbfbfb;
+}
+
+.contact_form {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #faf9f9;
+    padding-left: 30px;
+    box-shadow: 0 4px 10px 4px #182a38;
+}
+
+input {
+    background-color: #fbfbfb;
+    width: 400px;
+    height: 60px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #82848c;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.input:hover {
+    border-left: 3px solid rgb(5, 21, 24);
+    outline: none;
+}
+
+textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 140px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #82848c;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+label {
+    display: block;
+    float: center;
+    margin-bottom: 5px;
+}
+
+button {
+    height: 50px;
+    padding: 25pxx;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #2455f3;
+    border-color: #2455f3;
+    border-style: solid rgb(63, 61, 61);
+    border-radius: 5px;
+    width: 400px;
+    cursor: pointer;
+}
+
+button p {
+    color: #fff;
+}
+
+span {
+    color: #2455f3;
+}
+
+.msj {
+    font-size: 12px;
+    color: #0e0e0e;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #2455f3;
+}
+
+p {
+    font-size: 14px;
+    color: #0e0e0e;
+}
+
+ ::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+ ::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+.formS input:focus {
+    outline: 0;
+    border: 2px solid #7392f7;
+}
+
+.formS textarea:focus {
+    outline: 0;
+    border: 2px solid #7392f7;
+}

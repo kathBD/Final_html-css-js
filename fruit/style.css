@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    
+    background: rgb(237, 240, 241);
+    text-align: center;
+    font-family: 'Roboto';
+    padding: 1em;
+}
+
+h1 {
+    color: rgb(243, 168, 127);
+    font-size: 5em;
+}
+
+
+
+.cards-list {
+  
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    margin: 3px auto;
+    width: 250px;
+    border-radius: 40px;
+    box-shadow: 5px rgb(212, 208, 208);
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: aliceblue;
+}
+
+.card .card_image {
+    width: 250px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.card .card_image img {
+    width: inherit;
+    height: inherit;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.card .card_title {
+    text-align: center;
+    border-radius: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 1em;
+    padding: 5px;
+    height: 40px;
+    background-color: rgb(49, 49, 25);
+    
+}
+
+.card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+ p{
+
+    color: rgb(225, 225, 233);
+    font-size: 2em;
+    text-align:center;
+    
+}
+
+button {
+    width:70px;
+    height:70px;
+    padding:10px;
+    border-radius: 50px;
+    font-size:11px;
+    line-height:32px;
+    text-transform: uppercase;
+    background-color: #320ae4;
+    
+}
+
+
+
+button:hover{
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter:alpha (opacity=50);
+  }
+ button p{
+    color:rgb(241, 246, 247);
+    font-weight: 400;
+    text-decoration:none;
+    padding:5px 5px 5px 0;
+    font-size: 1.5em;
+   
+
+ }
+
+
+ 
+

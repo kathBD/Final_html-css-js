@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katherine Bonilla Duarte | Java</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+  <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="nav-brand">
+          <a href="index.html">
+            <img src="./assets/images/logo.png" alt="Kath-Logo" />
+          </a>
+        </div>
+        <div class="burger-menu-icon">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html">
+              <img src="./assets/images/1516992765754.jpg" alt="Katherine Bonilla" class="profile nav-link" />
+              <span class="caption nav-link">Katherine Bonilla</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Sobre Mí</a>
+          </li>
+          <li class="nav-item">
+            <a href="./pseint.html" class="nav-link">Pseint</a>
+          </li>
+          <li class="nav-item">
+            <a href="./java.html" class="nav-link">Java</a>
+          </li>
+
+          <li class="nav-item">
+
+            <a href="#"><i><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                  class="bi bi-github" viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                </svg></i></a>
+            <a href="https://www.linkedin.com/feed/"><i><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                  fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                </svg></i></a>
+            <a href="https://t.me/Budajoji"><i><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                  fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+                </svg></i></a>
+            <i><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt"
+                viewBox="0 0 16 16">
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+              </svg></i>Bogotá, Colombia
+
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="java" class="java">
+      <div class="container">
+        <div class="main-message">
+          <h2>Talleres - Java</h2>
+          <div class="list_java">
+            <ul>
+              <li><a href="#taller1">
+                  <p>Taller 1- variables e impresión</p>
+                </a></li>
+              <li><a href="#taller2">
+                  <p>Taller 2- Condicionales</p>
+                </a></li>
+              <li><a href="#taller3">
+                  <p>Taller 3 - Ciclos</p>
+                </a></li>
+              <li><a href="#taller4">
+                  <p>Taller 4 - Arrays</p>
+                </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="java_1">
+      <h2 id="taller1">Taller #1 class main</h2>
+      <div class="code-container">
+        <pre>
+         <code>
+          package com.taller1;
+
+          import javax.swing.*;
+          import java.util.Scanner;
+          
+          public class Main {
+          
+              private static int option, i;
+              private static Scanner input = new Scanner(System.in);
+          
+          
+              public static void main(String[] args) {
+          
+                  for (i = 0; i < 5; i++) {
+          
+                      System.out.println("Seleccione  un taller para revisión");
+                      System.out.println("1. Ejercicio #1");
+                      System.out.println("2. Ejercicio #2 ");
+                      System.out.println("3. Ejercicio #3");
+                      System.out.println("4. Ejercicio #4 ");
+                      System.out.println("5. Ejercicio #5 ");
+                      System.out.println("6. Salir ");
+                      option = input.nextInt();
+          
+                      switch (option) {
+          
+                          case 1:
+          
+                              Ejercicio1 ejercicio1 = new Ejercicio1();
+                              ejercicio1.nombreCompleto();
+                              break;
+          
+                          case 2:
+                              Ejercicio2 ejercicio2 = new Ejercicio2();
+                              ejercicio2.datospersona();
+                              break;
+          
+                          case 3:
+                              Ejercicio3 ejercicio3 = new Ejercicio3();
+                              ejercicio3.datosPadres();
+                              break;
+          
+                          case 4:
+                              Ejercicio4 ejercicio4 = new Ejercicio4();
+                              ejercicio4.capitalPais();
+                              break;
+          
+                          case 5:
+                              Ejercicio5 ejercicio5 = new Ejercicio5();
+                              ejercicio5.informacionMascota();
+                              break;
+          
+                          case 6:
+                              System.out.println("Gracias, Hasta pronto!");
+                              System.exit(6);
+          
+                          default:
+          
+                              System.out.println("la opción no es valida");
+          
+                      }
+          
+                  }
+              }
+          }
+      
+        </code>
+  
+     </pre>
+      </div>
+      <h2 id="taller1">Taller #1 variables e impresión</h2>
+      <div class="description_java">
+        <h2>Ejercicio #1</h2>
+        <p>"Realizar un programa el cual solicite su nombre y apellidos"</p>
+      </div>
+      <div class="code-container">
+
+        <pre>
+      <code>
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller1/Ejercicio1.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-1 - Ejercicio#1)</i></a>
+        
+        </code>
+      </pre>
+
+        <div class="code-container">
+          <div class="description_java">
+            <h2>Ejercicio #2</h2>
+            <p>"Realizar un programa el cual solicite su nombre, apellidos, edad y estatura."</p>
+          </div>
+          <pre>
+           <code>
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller1/Ejercicio2.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-1 - Ejercicio#2)</i></a>
+
+      </code>
+    </pre>
+
+        </div>
+        <div class="description_java">
+          <h2>Ejercicio #3</h2>
+          <p>"Realizar un programa el cual solicite su nombre y apellidos, también debe capturar nombre y
+            apellidos <br>de su padre y madre. Al finalizar debe imprimir en pantalla el siguiente mensaje
+            <br>"Yo [Nombre Completo], soy hijo de [Nombre de la Madre] y [Nombre del Padre]."</p>
+        </div>
+        <pre>
+     <code>
+
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller1/Ejercicio3.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-1 - Ejercicio#3)</i></a>
+
+      </code>
+    </pre>
+
+
+        <div class="description_java">
+          <h2>Ejercicio #4</h2>
+          <p>"Realizar un programa el cual solicite el nombre de una ciudad capital y el país. Al finalizar
+            debe <br>imprimir en pantalla el siguiente mensaje "La ciudad [Nombre de la Ciudad], es la
+            capital del país [Nombre del País]"</p>
+        </div>
+
+        <pre>
+     <code>
+      <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller1/Ejercicio4.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+        height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+        <path
+          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+      </svg> Ver código (taller-1 - Ejercicio#4)</i></a>
+    </pre>
+        <code>
+  
+          <div class="description_java">
+            <h2>Ejercicio #5</h2>
+            <p>"Realizar un programa el cual solicite el nombre de una ciudad capital y el país. Al finalizar
+              debe <br>imprimir en pantalla el siguiente mensaje "La ciudad [Nombre de la Ciudad], es la
+              capital del país [Nombre del País]"</p>
+          </div>
+     
+        <pre>
+      <code>
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller1/Ejercicio5.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-1 - Ejercicio#5)</i></a>
+
+        </code>
+    </pre>
+
+      </div>
+    </div>
+    <div class="java_1">
+      <h2 id="taller2"> Taller #2 condicionales</h2>
+      <h2>class main</h2>
+      <div class="code-container">
+        <pre>
+         <code>
+          package com.taller2;
+
+        import java.util.Scanner;
+
+        public class Main {
+
+            private static int option, i;
+            private static Scanner input = new Scanner(System.in);
+
+            public static void main(String[] args) {
+
+
+                for (i = 0; i < 10; i++) {
+
+                    System.out.println("Seleccione  un ejercicio del taller condicionales para revisión");
+                    System.out.println("1. Ejercicio #1 edad");
+                    System.out.println("2. Ejercicio #2 mayor");
+                    System.out.println("3. Ejercicio #3 Fiesta");
+                    System.out.println("4. Ejercicio #4 Video");
+                    System.out.println("5. Ejercicio #5 Drogueria ");
+                    System.out.println("6. Ejercicio #6 Tallermotos ");
+                    System.out.println("7. Ejercicio #7 IMC");
+                    System.out.println("8. Ejercicio #8 Pastelería");
+                    System.out.println("9. Ejercicio #9 Geometría ");
+                    System.out.println("10. Ejercicio #10 Banco ");
+                    System.out.println("0. Salir ");
+                    option = input.nextInt();
+
+
+
+                    switch (option) {
+
+                        case 1:
+
+                            Ejercicio1 ejercicio1 = new Ejercicio1();
+                            ejercicio1.mayorEdad();
+                            break;
+
+                        case 2:
+                            Ejercicio2 ejercicio2 = new Ejercicio2();
+                            ejercicio2.mayorEdad();
+                            break;
+
+                        case 3:
+                            Ejercicio3 ejercicio3 = new Ejercicio3();
+                            ejercicio3.entradaFiesta();
+                            break;
+
+                        case 4:
+                            Ejercicio4 ejercicio4 = new Ejercicio4();
+                            ejercicio4.menu4();
+                            break;
+
+                        case 5:
+                            Ejercicio5 ejercicio5 = new Ejercicio5();
+                            ejercicio5.menu5();
+                            break;
+                        case 6:
+                            Ejercicio6 ejercicio6 = new Ejercicio6();
+                            ejercicio6.menu6();
+                            break;
+
+                        case 7:
+                            Ejercicio7 ejercicio7 = new Ejercicio7();
+                            ejercicio7.indiceMasaCoropral();
+                            break;
+                        case 8:
+                            Ejercicio8 ejercicio8 = new Ejercicio8();
+                            ejercicio8.menu8();
+                            break;
+
+                        case 9:
+                            Ejercicio9 ejercicio9 = new Ejercicio9();
+                            ejercicio9.menu9();
+                            break;
+
+                        case 10:
+                            Ejercicio10 ejercicio10 = new Ejercicio10();
+                            ejercicio10.bienvenida();
+
+                        case 0:
+                            System.exit(0);
+
+
+                        default:
+
+                            System.out.println("la opción no es valida");
+
+                    }
+                }
+                if (option == 0)
+
+                    System.exit(0);
+
+            }
+
+
+            }
+
+        </code>
+     </pre>
+      </div>
+      
+      <div class="description_java">
+        <h2>Ejercicio #1</h2>
+        <p>"1 Realizar un programa en el cual se solicite la edad de una persona. Si la persona es mayor o igual a 18 años, 
+          deberá mostrar en pantalla: Usted es mayor de edad."</p>
+      
+      </div>
+      <div class="code-container">
+
+        <pre>
+      <code>
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller2/Ejercicio1.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-2 - Ejercicio#1)</i></a>
+        
+        </code>
+      </pre>
+      <div class="description_java">
+        <h2>Ejercicio #2</h2>
+        <p>"2-Realizar un programa en el cual se solicite la edad de una persona. 
+          Si la persona es menor a 18 años, deberá mostrar en pantalla: Usted aún es un niño(a)"".</p>
+      
+      </div>
+      <div class="code-container">
+
+        <pre>
+      <code>
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller2/Ejercicio2.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-2 - Ejercicio#2)</i></a>
+        
+        </code>
+      </pre>
+
+        <div class="code-container">
+          <div class="description_java">
+            <h2>Ejercicio #3</h2>
+            <p>"3 Realizar un programa en el cual se solicite el nombre, apellidos y edad de la persona. Si la persona es mayor o igual a 18 años, <br>entonce se deberá imprimir en pantalla [Nombre completo] usted es mayor de edad, por lo tanto puede entrar a la fiesta. <br>Si la edad de la persona es menor que 18 años, entonces, deberá imprimirse el siguiente mensaje:<br> [Nombre completo] usted es menor de edad, por lo tanto, no puede entrar a la fiesta, por favor devuélvase a su casa."</p>
+          </div>
+          <pre>
+           <code>
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller2/Ejercicio3.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-2 - Ejercicio#3)</i></a>
+
+      </code>
+    </pre>
+
+        </div>
+        <div class="description_java">
+          <h2>Ejercicio #4</h2>
+          <p>"4 La video tienda que presta sus servicios de alquiler de películas a los usuarios del barrio el Porvenir, requiere <br> de una aplicación que permita registrar el alquiler de las películas que adquieren sus usuarios. Para cada usuario se debe permitir<br> la opción de alquilar película, consultar películas disponibles y recibir película en la video tienda con la opción de realizar anotaciones <br>sobre estas si se llegan a presentar daños u otra novedad sobre la película."</p>
+        </div>
+        <pre>
+     <code>
+
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller2/Ejercicio4.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-2 - Ejercicio#4)</i></a>
+
+      </code>
+    </pre>
+
+
+        <div class="description_java">
+          <h2>Ejercicio #5</h2>
+          <p>"5 a Droguería Mi Salud presta sus servicios en la localidad de Suba y requiere una aplicación para poder facturar los productos<br> que vende a sus clientes y para ello, los productos tienen unas características que deben indicársele al cliente <br>para que pueda escoger el producto a comprar. Para cada cliente, se tienen las opciones de compra de producto,<br> consulta de precios por producto y devoluciones en caso de que se presenten."</p>
+        </div>
+
+        <pre>
+     <code>
+      <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller2/Ejercicio5.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+        height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+        <path
+          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+      </svg> Ver código (taller-2 - Ejercicio#5)</i></a>
+    </pre>
+        <code>
+  
+          <div class="description_java">
+            <h2>Ejercicio #6</h2>
+            <p>"3 El taller de motos "El Maquinista" recibe motocicletas de alto cilindraje para realizar las respectivas revisiones <br>y requiere una aplicación que le permita registrar los servicios generados a sus clientes. Para cada motocicleta se debe tener <br>registro del ingreso al taller y las observaciones por parte del cliente. También debe existir registro de salida del taller con <br>las novedades y otra de arreglos hechos por el mecánico en caso de que se requiera inventariar cambios repuestos en la motocicleta al entregarla."</p>
+          </div>
+     
+        <pre>
+      <code>
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller2/Ejercicio6.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-2 - Ejercicio#6)</i></a>
+
+        </code>
+    </pre>
+
+    <div class="description_java">
+      <h2>Ejercicio #7</h2>
+      <p>"7 La Secretaría de Salud Municipal requiere de una aplicación que le permita calcular el IMC (Índice de masa corporal) <br>y requiere los datos peso en kilogramos y estatura en metros Para cada persona encuestada adicional a los datos suministrados, debe mostrar<br> el resultado para cada uno y establecer en qué rango se encuentra (bajo peso, normal, sobrepeso y obeso)."</p>
+    </div>
+
+  <pre>
+<code>
+  <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller2/Ejercicio7.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+    height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+    <path
+      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+  </svg> Ver código (taller-2 - Ejercicio#7)</i></a>
+
+  </code>
+</pre>
+
+<div class="description_java">
+  <h2>Ejercicio #8</h2>
+  <p>"8 El pastelero Don Carlos es el mejor pastelero de la ciudad y requiere una aplicación que le permita registrar los<br> pedidos de los clientes en cuanto a las tortas que realiza. Cada torta tiene unas características propias como sabor,<br> cantidad (porciones) y decoraciones). Se requiere que la aplicación permita registrar los pedidos,<br> las tortas disponibles y las ventas que se registren diariamente."</p>
+</div>
+
+<pre>
+<code>
+<a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller2/Ejercicio8.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+<path
+  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+</svg> Ver código (taller-2 - Ejercicio#8)</i></a>
+
+</code>
+</pre>
+<div class="description_java">
+  <h2>Ejercicio #9</h2>
+  <p>"9 El profesor de geometría está explicando a sus estudiantes las fórmulas para calcular el área de diferentes figuras geométricas,<br> para ello requiere una aplicación que le facilite el ejercicio solicitándole los valores al estudiante. La aplicación debe permitir <br>que el estudiante seleccione si desea calcular el área de un rectángulo, triángulo o trapecio. <br>No olvide solicitar los datos necesarios para realizar cada cálculo y mostrar su respectivo resultado."</p>
+</div>
+
+<pre>
+<code>
+<a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller2/Ejercicio9.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+<path
+  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+</svg> Ver código (taller-2 - Ejercicio#9)</i></a>
+
+</code>
+</pre>
+<div class="description_java">
+  <h2>Ejercicio #10</h2>
+  <p>"10 El banco "Su banco fiel" es un banco que inicia sus actividades financieras y necesita una aplicación <br> para llevar las cuentas de sus usuarios; por lo tanto, se sugiere que la cuenta tenga los atributos titular y cantidad. <br>Para cada cliente las cuentas permitirán realizar ingresos, retiros o consultas de valor.<br> En los ingresos no se pueden insertar valores negativos y para los retiros el valor no puede ser mayor al valor que tiene en la cuenta.."</p>
+</div>
+
+<pre>
+<code>
+<a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller2/Ejercicio10.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+<path
+  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+</svg> Ver código (taller-2 - Ejercicio#10)</i></a>
+
+</code>
+</pre>
+
+      </div>
+    </div>
+    <div class="java_1">
+      <h2 id="taller3"> Taller #3 Ciclos</h2>
+      <h2>class main</h2>
+      <div class="code-container">
+        <pre>
+         <code>
+          package com.taller3;
+
+          import java.util.Scanner;
+          
+          public class Main {
+          
+              private static int option, i;
+              private static Scanner input = new Scanner(System.in);
+          
+              public static void main(String[] args) {
+          
+          
+                  for (i = 0; i <= 7; i++) {
+          
+                      System.out.println("Seleccione  un ejercicio del taller condicionales para revisión");
+                      System.out.println("1. Ejercicio figuras #1 - 3");
+                      System.out.println("2. Ejercicio  Tabla de multiplicar #4");
+                      System.out.println("3. Ejercicio  Menú infinito #5");
+                      System.out.println("4. Ejercicio  Agenda de contactos #6");
+                      System.out.println("5. Ejercicio  Parqueadero #7");
+                      System.out.println("6. Ejercicio  Escuela automovilística #8");
+                      System.out.println("7. Salir sistema");
+                      option = input.nextInt();
+          
+          
+                      switch (option) {
+          
+                          case 1:
+          
+                              Ejercicio1 ejercicio1 = new Ejercicio1();
+                              ejercicio1.figura1();
+          
+          
+                              Ejercicio2 ejercicio2 = new Ejercicio2();
+                              ejercicio2.figura2();
+          
+                              Ejercicio3 ejercicio3 = new Ejercicio3();
+                              ejercicio3.figura3();
+                              break;
+          
+                          case 2:
+                              Ejercicio4 ejercicio4 = new Ejercicio4();
+                              ejercicio4.tablaMultiplicar5();
+                              break;
+                          case 3:
+                              Ejercicio5 ejercicio5 = new Ejercicio5();
+                              ejercicio5.menuInfinito();
+          
+                              break;
+          
+                          case 4:
+                              Ejercicio6 ejercicio6 = new Ejercicio6();
+                              ejercicio6.menutelefono();
+                              break;
+          
+                          case 5:
+                              Ejercicio7 ejercicio7 = new Ejercicio7();
+                              ejercicio7.menuParqueadero();
+                              break;
+          
+                          case 6:
+                              Ejercicio8 ejercicio8 = new Ejercicio8();
+                              ejercicio8.menuCurso();
+          
+                              break;
+          
+          
+                          case 7:
+                              System.exit(0);
+          
+          
+                          default:
+          
+                              System.out.println("la opción no es valida");
+          
+                      }
+                  }
+              }
+          
+          }
+        </code>
+     </pre>
+      </div>
+      
+      <div class="description_java">
+        <h2>Ejercicio #1</h2>
+        <p>"Realizar la siguiente figura por medio del ciclo Para" </p> 
+      
+      </div>
+      <div class="code-container">
+
+        <pre>
+          <img src="./assets/images/Projects/pseint/1643643915_01. Taller Ciclos.png" alt="">
+      <code>
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller3/Ejercicio1.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-3 - Ejercicio#1)</i></a>
+        
+        </code>
+      </pre>
+      <div class="description_java">
+        <h2>Ejercicio #2</h2>
+        <p>"Realizar la siguiente figura por medio del ciclo Mientras - Hacer" </p> 
+      
+      </div>
+      <div class="code-container">
+
+        <pre>
+          <img src="./assets/images/Projects/pseint/1643644021_02. Taller Ciclos.png" alt="">
+      <code>
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller3/Ejercicio2.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-3 - Ejercicio#2)</i></a>
+        
+        </code>
+      </pre>
+
+        <div class="code-container">
+          <div class="description_java">
+            <h2>Ejercicio #3</h2>
+            <p>Realizar la siguiente figura por medio del ciclo Repetir - Hasta Que </p> 
+          <pre>
+            <img src="./assets/images/Projects/pseint/1643644087_03. Taller Ciclos.png" alt="">
+           <code>
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller3/Ejercicio3.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-3 - Ejercicio#3)</i></a>
+
+      </code>
+    </pre>
+
+        </div>
+        <div class="description_java">
+          <h2>Ejercicio #4</h2>
+          <p>Se requiere un programa que pueda crear la tabla de multiplicar del número que el usuario indique por medio del ciclo Para; esta debe ser impresa del 1 al 10 </p> 
+        </div>
+        <pre>
+     <code>
+
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller3/Ejercicio4.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-3 - Ejercicio#4)</i></a>
+
+      </code>
+    </pre>
+
+
+        <div class="description_java">
+          <h2>Ejercicio #5</h2>
+          <p>Utilizando el ciclo que usted desee, crear un menú de ejecución infinita hasta que el usuario desee terminar dicho ciclo </p> 
+        </div>
+
+        <pre>
+     <code>
+      <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller3/Ejercicio5.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+        height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+        <path
+          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+      </svg> Ver código (taller-3 - Ejercicio#5)</i></a>
+    </pre>
+        <code>
+  
+          <div class="description_java">
+            <h2>Ejercicio #6</h2>
+            <p> Se está creando una aplicación que va a estar conectada con un prototipo que permita almacenar contactos telefónicos en el dispositivo. <br>Para ello cada contacto debe contener nombre completo, teléfono y organización. Se requiere que la aplicación permita añadir<br> 3 contactos verificando que el número no esté almacenado, buscar contactos almacenados y eliminar contactos <br>si el usuario lo requiere. Recuerde que el sistema debe terminar cuando el usuario así lo indique. </p> 
+          </div>
+     
+        <pre>
+      <code>
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller3/Ejercicio6.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-3 - Ejercicio#6)</i></a>
+
+        </code>
+    </pre>
+
+    <div class="description_java">
+      <h2>Ejercicio #7</h2>
+      <p> El parqueadero "El guardián" presta sus servicios de parqueadero nocturno para los usuarios del barrio y requiere una aplicación que permita <br>registrar los vehículos que se cuidan en estas instalaciones. Se sugiere que el parqueadero tenga los atributos del vehículo como son, placa <br> y marca, y los datos del cliente como son nombre completo y número de teléfono.<br> Para cada vehículo se debe permitir la opción de ingresar al parqueadero, retirar del parqueadero y consultar si un vehículo se encuentra en el parqueadero. <br>Recuerde que el sistema debe terminar cuando el usuario así lo indique. Tenga en presente que el parqueadero solo puede almacenar máximo 5 vehículos. </p> 
+    </div>
+
+  <pre>
+<code>
+  <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller3/Ejercicio7.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+    height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+    <path
+      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+  </svg> Ver código (taller-3 - Ejercicio#7)</i></a>
+
+  </code>
+</pre>
+
+<div class="description_java">
+  <h2>Ejercicio #8</h2>
+  <p>"La escuela automovilística "El Maestro" requiere una aplicación que permita registrar a sus clientes en los cursos de enseñanza automovilística <br>y establecer quienes lo han aprobado para continuar con el trámite de adquirir la licencia de conducción. Para cada usuario se debe permitir <br>registrar su ingreso al curso, consultar usuarios que hayan presentado el curso y resultados de la prueba del curso (si fueron aprobados o no).<br> Recuerde que el sistema debe terminar cuando el usuario así lo indique. <br>Tenga presente que la escuela tiene capacidad máxima de gestionar 8 usuarios en su totalidad." </p> 
+</div>
+
+<pre>
+<code>
+<a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller3/Ejercicio8.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+<path
+  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+</svg> Ver código (taller-3 - Ejercicio#8)</i></a>
+
+</code>
+</pre>
+
+
+      </div>
+    </div>
+    <div class="java_1">
+      <h2 id="taller4"> Taller #4 Arreglos</h2>
+      <h2>class main</h2>
+      <div class="code-container">
+        <pre>
+         <code>
+          package com.taller4;
+
+          import java.util.Scanner;
+          
+          public class Main {
+          
+              private static int option, i;
+              private static Scanner input = new Scanner(System.in);
+          
+              public static void main(String[] args) {
+          
+                  for (i = 0; i < 5; i++) {
+          
+                      System.out.println("Seleccione  un taller para revisión");
+                      System.out.println("1. Ejercicio #1 vector-usuario");
+                      System.out.println("2. Ejercicio #2 pares-impares ");
+                      System.out.println("3. Ejercicio #3 1-1000");
+                      System.out.println("4. Ejercicio #4 filas invertidas");
+                      System.out.println("5. Ejercicio #5 tablas multiplicar");
+                      System.out.println("0. Salir ");
+                      option = input.nextInt();
+          
+          
+                      switch (option) {
+          
+                          case 1:
+                              Ejercicio1 ejercicio1 = new Ejercicio1();
+                              ejercicio1.vectorLlenado();
+                              break;
+                          case 2:
+                              Ejercicio2 ejercicio2 = new Ejercicio2();
+                              ejercicio2.paresImpares();
+                              break;
+          
+                          case 3:
+          
+                              Ejercicio3 ejercicio3 = new Ejercicio3();
+                              ejercicio3.primos();
+                              break;
+          
+                          case 4:
+          
+                              Ejercicio4 ejercicio4 = new Ejercicio4();
+                              ejercicio4.invertirFilas();
+                              break;
+          
+                          case 5:
+                              Ejercicio5 ejercicio5 = new Ejercicio5();
+                              ejercicio5.tablas();
+                              break;
+          
+                          case 0:
+                              System.exit(0);
+          
+                          default:
+          
+                              System.out.println("la opción no es valida");
+          
+                      }
+                  }
+                  if (option == 0)
+          
+                      System.exit(0);
+          
+              }
+          }
+        </code>
+     </pre>
+      </div>
+      
+      <div class="description_java">
+        <h2>Ejercicio #1</h2>
+        <p>Crear un vector de tipo Entero con 5 posiciones, llenarlo con información solicitada al usuario. <br>Después de recoger toda la información, se requiere imprimir el índice de cada posición en el arreglo con su valor  </p> 
+      
+      </div>
+      <div class="code-container">
+
+        <pre>
+         
+      <code>
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller4/Ejercicio1.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-4 - Ejercicio#1)</i></a>
+        
+        </code>
+      </pre>
+      <div class="description_java">
+        <h2>Ejercicio #2</h2>
+        <p>Crear un arreglo de números enteros de 20 posiciones, el cual, debe ser llenado con números aleatorios entre 1 y 100; <br>después de haber llenado dicho arreglo, se debe volver a recorrer utilizando un ciclo diferente al que se usó para llenarse e imprimir los números pares e impares. </p> 
+      
+      </div>
+      <div class="code-container">
+
+        <pre>
+        
+      <code>
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller4/Ejercicio2.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-4 - Ejercicio#2)</i></a>
+        
+        </code>
+      </pre>
+
+        <div class="code-container">
+          <div class="description_java">
+            <h2>Ejercicio #3</h2>
+            <p>Imprimir los números primos del 1 al 1000, el resultado debe ser buscado de forma matemática </p> 
+          <pre>
+           
+           <code>
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller4/Ejercicio3.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-4 - Ejercicio#3)</i></a>
+
+      </code>
+    </pre>
+
+        </div>
+        <div class="description_java">
+          <h2>Ejercicio #4</h2>
+          <p>Dada la siguiente matriz bidimensional, el cual debe de quemar en el código <br>
+            01 02 03 04 05<br>
+            06 07 08 09 10</br>
+            11 12 13 14 15</br>
+            16 17 18 19 20 </p> 
+        <pre>
+     <code>
+
+        <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller4/Ejercicio4.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+          height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+          <path
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+        </svg> Ver código (taller-4 - Ejercicio#4)</i></a>
+
+      </code>
+    </pre>
+
+
+        <div class="description_java">
+          <h2>Ejercicio #5</h2>
+          <p>Se debe de imprimir el siguiente cuadro <br>
+            El usuario deberá insertar la fila y columna de la cual desea ver el resultado, el resultado de cada celda debe estar<br> previamente calculado en una matriz bidimensional la cual cada resultado obedecerá a la fila y columna insertada por el usuario.
+        </p>
+        </div>
+
+        <pre>
+     <code>
+      <a href="https://github.com/kathBD/taller_java/blob/main/src/com/taller4/Ejercicio5.java" class="project-link" target="_blank"><i><svg xmlns="http://www.w3.org/2000/svg" width="50"
+        height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+        <path
+          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+      </svg> Ver código (taller-4 - Ejercicio#5)</i></a>
+    </pre>
+        <code>
+  
+         
+
+      </div>
+    </div>
+  </main>
+
+  <script src="./main.js"></script>
+
+</body>
+
+</html>
